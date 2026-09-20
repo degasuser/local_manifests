@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/xiaomi/degas" name="degasuser/android_device_xiaomi_degas" remote="github" revision="lineage-22.2" />
+    <project path="vendor/xiaomi/degas" name="degasuser/vendor_xiaomi_degas" remote="github" revision="lineage-22.2" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
+</manifest>
