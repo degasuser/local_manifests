@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/degas" name="degasuser/android_device_xiaomi_degas" remote="github" revision="lineage-22.2" />
-    <project path="vendor/xiaomi/degas" name="degasuser/vendor_xiaomi_degas" remote="github" revision="lineage-22.2" />
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
+
+    <!-- Xiaomi 14T / degas -->
+    <project
+        name="degasuser/android_device_xiaomi_degas"
+        path="device/xiaomi/degas"
+        revision="main" />
+
+    <project
+        name="degasuser/vendor_xiaomi_degas"
+        path="vendor/xiaomi/degas"
+        revision="main" />
+
+    <!-- MT6897 common -->
+    <project
+        name="mt6897-devs/device_mediatek_sepolicy_vndr"
+        path="device/mediatek/sepolicy_vndr"
+        revision="main" />
+
+    <project
+        name="mt6897-devs/hardware_mediatek"
+        path="hardware/mediatek"
+        revision="main" />
+
+    <project
+        name="mt6897-devs/hardware_xiaomi"
+        path="hardware/xiaomi"
+        revision="main" />
+
+    <!-- MT6897 kernel infrastructure -->
+    <project
+        name="mt6897-devs/android_vendor_mediatek_kernel_modules"
+        path="vendor/mediatek/kernel_modules"
+        revision="main" />
+
+    <project
+        name="mt6897-devs/android_kernel_device_modules_6.1"
+        path="kernel/device_modules/6.1"
+        revision="main" />
+
 </manifest>
