@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="github" fetch="https://github.com" />
 
-    <!-- Xiaomi 14T / degas -->
-    <project
-        name="degasuser/android_device_xiaomi_degas"
-        path="device/xiaomi/degas"
-        revision="main" />
+    <!-- Xiaomi 14T (degas) -->
+    <project name="degasuser/device_xiaomi_degas"
+             path="device/xiaomi/degas"
+             remote="github"
+             revision="lineage-23.2" />
 
-    <project
-        name="degasuser/vendor_xiaomi_degas"
-        path="vendor/xiaomi/degas"
-        revision="main" />
+    <project name="degasuser/device_xiaomi_degas-kernel"
+             path="device/xiaomi/degas-kernel"
+             remote="github"
+             revision="lineage-23.2" />
 
-    <!-- MT6897 common -->
-    <project
-        name="mt6897-devs/device_mediatek_sepolicy_vndr"
-        path="device/mediatek/sepolicy_vndr"
-        revision="main" />
+    <project name="degasuser/vendor_xiaomi_degas"
+             path="vendor/xiaomi/degas"
+             remote="github"
+             revision="lineage-23.2" />
 
-    <project
-        name="mt6897-devs/hardware_mediatek"
-        path="hardware/mediatek"
-        revision="main" />
+    <!-- Зависимости железа MTK / Xiaomi -->
+    <project name="LineageOS/android_hardware_xiaomi"
+             path="hardware/xiaomi"
+             remote="github"
+             revision="lineage-23.2" />
 
-    <project
-        name="mt6897-devs/hardware_xiaomi"
-        path="hardware/xiaomi"
-        revision="main" />
+    <project name="LineageOS/android_hardware_mediatek"
+             path="hardware/mediatek"
+             remote="github"
+             revision="lineage-23.2" />
 
-    <!-- MT6897 kernel infrastructure -->
-    <project
-        name="mt6897-devs/android_vendor_mediatek_kernel_modules"
-        path="vendor/mediatek/kernel_modules"
-        revision="main" />
-
-    <project
-        name="mt6897-devs/android_kernel_device_modules_6.1"
-        path="kernel/device_modules/6.1"
-        revision="main" />
-
+    <project name="LineageOS/android_hardware_lineage_interfaces"
+             path="hardware/lineage/interfaces"
+             remote="github"
+             revision="lineage-23.2" />
 </manifest>
