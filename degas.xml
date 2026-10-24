@@ -1,36 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
     <remote name="gh" fetch="https://github.com" />
-
-    <!-- Xiaomi 14T (degas) -->
-    <project name="degasuser/device_xiaomi_degas"
-             path="device/xiaomi/degas"
-             remote="gh"
-             revision="lineage-23.2" />
-
-    <project name="degasuser/device_xiaomi_degas-kernel"
-             path="device/xiaomi/degas-kernel"
-             remote="gh"
-             revision="lineage-23.2" />
-
-    <project name="degasuser/vendor_xiaomi_degas"
-             path="vendor/xiaomi/degas"
-             remote="gh"
-             revision="lineage-23.2" />
-
-    <!-- Dependencies -->
-    <project name="LineageOS/android_hardware_xiaomi"
-             path="hardware/xiaomi"
-             remote="gh"
-             revision="lineage-23.2" />
-
-    <project name="LineageOS/android_hardware_mediatek"
-             path="hardware/mediatek"
-             remote="gh"
-             revision="lineage-23.2" />
-
-    <project name="LineageOS/android_device_mediatek_sepolicy_vndr"
-             path="device/mediatek/sepolicy_vndr"
-             remote="gh"
-             revision="lineage-23.2" />
+    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="609076f8e3d530cc550477dba991eabc62c03f2a" />
+    <project name="degasuser/device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="09fa952d168e404bf3eedf02e2f99e313a290cbc" />
+    <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="ed215c95ea15d8e1826b7ea0661e0d45a3f7611c" />
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.2" />
+    <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="lineage-23.2" />
+    <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-23.2" />
 </manifest>
