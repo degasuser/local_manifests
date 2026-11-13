@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
     <remote name="gh" fetch="https://github.com" />
-    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="992c382293653d2f899de3ff26e2748a73b8f809" />
+    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="3167f1ad3410eacaf2d386acb3b86ffd5fdbebe7" />
     <project name="degasuser/device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="1288de862e7a285b7598379a649fc559a5f2610f" />
     <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="07717582b4c37563e2ff8d13a7c60685c4f5ac06" />
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.2" />
