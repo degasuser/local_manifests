@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
     <remote name="gh" fetch="https://github.com" />
-    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="c964d1993eede74e8b38db1f503c58eaea2ab2b6" />
+    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="1c13e173e3516bb7ce20a35446333fff19b43fd4" />
     <project name="degasuser/device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="1288de862e7a285b7598379a649fc559a5f2610f" />
-    <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="57f6f7e26a4b998e3ed551819e3b2cf7d0b10f35" />
+    <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="48e6570178ea33bd33a5481339fe04f61d040c7e" />
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.2" />
     <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="lineage-23.2" />
     <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-23.2" />
