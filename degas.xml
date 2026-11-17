@@ -1,10 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+    <!-- Project Infinity X 17 (based on LineageOS 24.0) for Xiaomi 14T (degas).
+         Device tree: lineage-24.0 branch of mt6897-degas/android_device_xiaomi_degas
+         plus the infinity_degas product. Vendor generated from stock
+         OS3.0.306.0.WNEEUXM. Flash stock 306 (fastboot) first: no firmware
+         is packaged. -->
     <remote name="gh" fetch="https://github.com" />
-    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="c0d121edc0f8fb9e396126815e8a410b806c660e" />
-    <project name="degasuser/device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="1288de862e7a285b7598379a649fc559a5f2610f" />
-    <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="e61be4c3ad3a2816d7eae5bb3c2da5e31fb0d4fc" />
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-24.0" />
-    <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="lineage-24.0" />
-    <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="lineage-24.0" />
+    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="a48f3763a4c76a587314fa7bdea9d201fcc63b93" />
+    <project name="mt6897-degas/android_device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="636d6d1cdd759fbe4dd005af7ae0ea2af0ece1ea" />
+    <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="60cf351dc9776302f2158412773213456341e91c" />
+    <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="32bd412433ef0d58c3484769d9789987407627fc" />
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="fb0a2d51c741b4a6af3acc76a337aa4f3d7f9977" />
+    <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="d76ed9b3f512decbb68f6641db86230aa595996e" />
 </manifest>
