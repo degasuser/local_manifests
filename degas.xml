@@ -6,7 +6,7 @@
          OS3.0.306.0.WNEEUXM. Flash stock 306 (fastboot) first: no firmware
          is packaged. -->
     <remote name="gh" fetch="https://github.com" />
-    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="e8111916e4eeef728a1b665e297f5e7fcc090df0" />
+    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="e8f5225fff54faeaa5ec0deb29a6679898aeace1" />
     <project name="mt6897-degas/android_device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="636d6d1cdd759fbe4dd005af7ae0ea2af0ece1ea" />
     <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="60cf351dc9776302f2158412773213456341e91c" />
     <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="32bd412433ef0d58c3484769d9789987407627fc" />
