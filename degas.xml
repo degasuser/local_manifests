@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <!-- crDroid 13 (Android 17, based on LineageOS 24.0) for Xiaomi 14T (degas).
-         Device tree: lineage-24.0 branch of mt6897-degas/android_device_xiaomi_degas
-         with the degas fixes, built as lineage_degas. Vendor generated from stock
-         OS3.0.306.0.WNEEUXM. Flash stock 306 (fastboot) first: no firmware
-         is packaged. GApps: vendor/pixel/gms (tejas101k), as for Infinity X. -->
+    <!-- DerpFest 17 (Android 17, LineageOS 24.0 base) for Xiaomi 14T (degas).
+         Device tree: derpfest-17 branch of degasuser/device_xiaomi_degas
+         with the degas fixes, built as lineage_degas. Vendor generated from
+         stock OS3.0.306.0.WNEEUXM. GApps come from vendor/pixel/gms that
+         DerpFest ships in its own manifest (PixelOS-AOSP on GitLab), so
+         this local manifest does NOT add vendor/pixel/gms.
+         Flash stock 306 (fastboot) first: no firmware is packaged. -->
     <remote name="gh" fetch="https://github.com" />
-    <remote name="gl" fetch="https://gitlab.com" />
-    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="54549c01f198378d695df335aae052a69bf24cd7" />
+    <project name="degasuser/device_xiaomi_degas" path="device/xiaomi/degas" remote="gh" revision="3f26ffd272f8518d7e854ecf9a712a917e399d72" />
     <project name="mt6897-degas/android_device_xiaomi_degas-kernel" path="device/xiaomi/degas-kernel" remote="gh" revision="636d6d1cdd759fbe4dd005af7ae0ea2af0ece1ea" />
     <project name="degasuser/vendor_xiaomi_degas" path="vendor/xiaomi/degas" remote="gh" revision="60cf351dc9776302f2158412773213456341e91c" />
     <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="gh" revision="32bd412433ef0d58c3484769d9789987407627fc" />
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="fb0a2d51c741b4a6af3acc76a337aa4f3d7f9977" />
     <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="gh" revision="d76ed9b3f512decbb68f6641db86230aa595996e" />
-    <project name="tejas101k/proprietary_vendor_pixel_gms" path="vendor/pixel/gms" remote="gl" revision="seventeen" clone-depth="1" />
 </manifest>
